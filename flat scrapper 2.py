@@ -1,3 +1,8 @@
+# This code only reads from a specific website and prints in the console, the plan is to dump the data into a DB or a sheet
+#
+#
+#
+
 from bs4 import BeautifulSoup
 import requests
 
