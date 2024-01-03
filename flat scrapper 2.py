@@ -22,9 +22,10 @@ flat = {
 		"titulo": None
     		}
 
-
+# this is the container that is each card
 list_cards = result.find_all("div",class_="col-xs-12 grid-imovel")
-print(len(list_cards))
+print(len(list_cards)) # console print for verification
+
 
 flats = []
 
