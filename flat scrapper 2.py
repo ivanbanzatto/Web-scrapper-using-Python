@@ -55,7 +55,7 @@ for i in range(len(list_cards)):
 # TO DO list
 # 1. work with pagination on websites 
 # 2. scrappe other websites
-# 3. write on google sheets
+# 3. write on DB, sheets or SQL
 # 4. fix small scrapping tags issues
 # 5. 
 #
