@@ -4,7 +4,7 @@
 #
 
 from bs4 import BeautifulSoup
-import requests
+import requests # for now the code is reading from a local file, in the future the code will scrappe from web page
 
 
 with open("barao.html", "rb") as file:
@@ -58,7 +58,7 @@ for i in range(len(list_cards)):
 # 2. scrappe other websites
 # 3. write on DB, sheets or SQL
 # 4. fix small scrapping tags issues
-# 5. 
+# 5. switch from local file to web pages
 #
 #
 #
